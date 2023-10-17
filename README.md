@@ -1,5 +1,7 @@
 # contactsManager
 
+CONTACTS MANAGER
+
 This program helps you better manage your contacts. The program offers a range of useful functions described below.
 
 Add function:
@@ -23,5 +25,7 @@ You can check how many records are currently in the list.
 Save and Load:
 You can save and load the list by name.
 
+
+Author: Martin Haronik, project idea from Hyperskill.
 
 
