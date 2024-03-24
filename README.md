@@ -33,7 +33,7 @@ You can save and load the list by name.
 
 4. **Select JDK**: Set the path to the Java Development Kit (JDK) in the project settings of your IDE.
 
-5. **Run the Main Method**: Locate the main class or method that should be executed and run it using your IDE.
+5. **Run the Main Method**: Locate the **main** class and run main method ,using your IDE.
 
 Author: Martin Haronik, project idea from Hyperskill.
 
