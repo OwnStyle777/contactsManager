@@ -25,7 +25,7 @@ You can save and load the list by name.
 
 **How to Run the Project**
 
-1. **Clone the Project**: Use Git to clone the project repository (`git clone`) + repisitory name.
+1. **Clone the Project**: Use Git to clone the project repository (`git clone https://github.com/OwnStyle777/contactsManager.git`) .
 
 2. **Download ZIP File**: Alternatively, you can download the project as a ZIP file and extract it to a designated folder on your local machine.
 
