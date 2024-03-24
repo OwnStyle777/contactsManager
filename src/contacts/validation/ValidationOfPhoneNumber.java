@@ -6,10 +6,8 @@ import java.util.regex.Pattern;
 public class ValidationOfPhoneNumber {
 
     public boolean isPhoneNumberValidated(String phoneNumber) {
-
-        String prefix = "(\\+?[A-Za-z\\d]*[ -]?)?";
-        String secondGroup = "((?:\\([A-Za-z\\d]+\\)|[A-Za-z\\d]{2,})[ -]?)?";
-        String regex = prefix + secondGroup + "([A-Za-z\\d]{2,}[ -])*([A-Za-z\\d]{2,})*";
+        
+        String regex = "^[\\+]?[(]?[0-9]{3}[)]?[-\\s\\.]?[0-9]{3}[-\\s\\.]?[0-9]{4,6}$";
 
         Pattern pattern = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
 
