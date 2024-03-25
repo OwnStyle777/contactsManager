@@ -8,7 +8,7 @@ public interface SaveAndLoadFunctions {
     default void save(Scanner scanner, List<contacts.Record> recordList) {
         System.out.println("Enter file name");
         String fileName = scanner.nextLine();
-        String pathname = "C:\\Users\\DELL\\Desktop\\MyFiles\\PlatformerTutorial-ep04\\Contacts (Java)\\Contacts (Java)\\task\\src\\contacts\\SavedContacts\\" + fileName + ".ser";
+        String pathname = "src/contacts/savedContacts/" + fileName + ".ser";
         File file = new File(pathname);
 
         try {
@@ -24,7 +24,7 @@ public interface SaveAndLoadFunctions {
 
         System.out.println("Enter file name:");
         String fileName = scanner.nextLine();
-        String pathname = "C:\\Users\\DELL\\Desktop\\MyFiles\\PlatformerTutorial-ep04\\Contacts (Java)\\Contacts (Java)\\task\\src\\contacts\\SavedContacts\\" + fileName + ".ser";
+        String pathname = "src/contacts/savedContacts/" + fileName + ".ser";
         try (ObjectInputStream is = new ObjectInputStream(new FileInputStream(pathname))) {
             recordList = (List<contacts.Record>) is.readObject();
             System.out.println("List of records was successfully loaded .");
